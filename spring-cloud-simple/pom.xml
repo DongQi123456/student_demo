@@ -11,6 +11,7 @@
     <modules>
         <module>simple-user</module>
         <module>simple-movie</module>
+        <module>simple-eureka</module>
     </modules>
 
     <parent>
