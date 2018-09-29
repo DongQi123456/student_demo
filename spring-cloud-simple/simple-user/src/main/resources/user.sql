@@ -1,0 +1,11 @@
+insert into user values ("王五", 23, 2000.00);
+insert into user values ("李四", 25, 3000.00);
+insert into user values ("小于", 28, 1000.00);
+insert into user values ("华为", 21, 5000.00);
+insert into user values ("独孤九剑", 34, 7000.00);
+insert into user values ("陈真", 45, 8000.00);
+insert into user values ("关羽", 55, 4000.00);
+insert into user values ("张飞", 24, 3300.00);
+insert into user values ("刘邦", 63, 5400.00);
+insert into user values ("曹操", 16, 6100.00);
+insert into user values ("诸葛亮", 33, 5300.00);
