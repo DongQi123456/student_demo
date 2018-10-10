@@ -1,5 +1,11 @@
 
 spring:
+  redis:
+    shiro:
+      host: 192.168.255.128
+      port: 6379
+      timeout: 0
+      password:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/spring_cloud_simple?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
