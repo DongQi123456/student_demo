@@ -65,18 +65,6 @@ public class UserController {
         return jsonObject.toString();
     }
 
-
-    @RequestMapping(name = "/register", method = RequestMethod.POST)
-    @ResponseBody
-    public Object register(UserInfo userInfo){
-
-//        String random = new Secure
-
-        User user = userService.saveUserData(new User(userInfo.getUsername(), userInfo.getPassword()));
-
-        return user;
-    }
-
     /**
      * 未登录，shiro应重定向到登录界面，此处返回未登录状态信息由前端控制跳转页面
      * @return
